@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:padding="20dp"
+
+    tools:context=".MainActivity">
+
+    <com.app.adprogressbarlib.AdCircleProgress
+        android:id="@+id/pgb_progress"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:backgroundTintMode="add"
+        app:adpgb_finished_color="@color/colorAccent"
+        app:adpgb_progress="100"
+        app:adpgb_unfinished_color="@android:color/white"
+        custom:adpgb_finished_stroke_width="5dp"
+        custom:adpgb_inner_drawable="@drawable/ic_close_icon"
+        android:layout_margin="20dp"
+        custom:adpgb_show_text="false"
+        custom:adpgb_unfinished_stroke_width="5dp" />
+
+    <com.app.adprogressbarlib.AdCircleProgress
+        android:id="@+id/pgb_progress2"
+        android:layout_width="60dp"
+        android:layout_margin="20dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/pgb_progress"
+        android:backgroundTintMode="add"
+        app:adpgb_finished_color="@color/colorPrimary"
+        app:adpgb_progress="30"
+        app:adpgb_background_color="@android:color/transparent"
+        app:adpgb_unfinished_color="@android:color/white"
+        custom:adpgb_finished_stroke_width="10dp"
+        custom:adpgb_show_text="false"
+        custom:adpgb_unfinished_stroke_width="5dp" />
+
+    <com.app.adprogressbarlib.AdCircleProgress
+        android:id="@+id/pgb_progress3"
+        android:layout_width="60dp"
+        android:layout_margin="20dp"
+        android:layout_height="60dp"
+        app:adpgb_background_color="@android:color/holo_red_dark"
+        android:layout_toRightOf="@id/pgb_progress2"
+        android:backgroundTintMode="add"
+        app:adpgb_finished_color="@android:color/white"
+        app:adpgb_unfinished_color="@android:color/holo_red_dark"
+        custom:adpgb_finished_stroke_width="5dp"
+        custom:adpgb_inner_drawable="@drawable/ic_delete_icon"
+        custom:adpgb_show_text="false"
+        custom:adpgb_unfinished_stroke_width="5dp" />
+
+    <com.app.adprogressbarlib.AdCircleProgress
+        android:id="@+id/pgb_progress4"
+        android:layout_width="60dp"
+        android:layout_margin="20dp"
+        android:layout_height="60dp"
+        app:adpgb_background_color="@android:color/background_light"
+        android:layout_below="@id/pgb_progress"
+        android:backgroundTintMode="add"
+        app:adpgb_finished_color="@android:color/white"
+        app:adpgb_unfinished_color="@android:color/holo_red_light"
+        custom:adpgb_finished_stroke_width="5dp"
+        app:adpgb_progress="20"
+        app:adpgb_text_size="12dp"
+        custom:adpgb_show_text="true"
+        app:adpgb_text_color="@android:color/holo_red_light"
+        custom:adpgb_unfinished_stroke_width="5dp" />
+    <com.app.adprogressbarlib.AdCircleProgress
+        android:id="@+id/pgb_progress5"
+        android:layout_width="60dp"
+        android:layout_margin="20dp"
+        android:layout_height="60dp"
+        app:adpgb_background_color="@android:color/transparent"
+        android:layout_toRightOf="@id/pgb_progress4"
+        android:layout_below="@id/pgb_progress2"
+        android:backgroundTintMode="add"
+        app:adpgb_finished_color="@android:color/white"
+        app:adpgb_gradient_color_one="@color/grad1"
+        app:adpgb_gradient_color_two="@color/grad3"
+        app:adpgb_unfinished_color="@android:color/transparent"
+        custom:adpgb_finished_stroke_width="5dp"
+        app:adpgb_progress="90"
+        app:adpgb_text_size="12dp"
+        custom:adpgb_show_text="false"
+        custom:adpgb_unfinished_stroke_width="5dp" />
+
+</RelativeLayout>
