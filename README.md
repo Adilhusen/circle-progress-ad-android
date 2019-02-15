@@ -23,3 +23,65 @@ You can either simply use the [`AdCircleProgress`](https://github.com/Adilhusen/
 
 Simply replace your `ProgressBar` with `AdCircleProgress`, and remember to apply corresponding style and attribute for correct behavior.
 
+For example, to create a first `AdCircleProgress` like whatsapp:
+
+
+
+```xml
+<com.app.adprogressbarlib.AdCircleProgress
+        android:id="@+id/pgb_progress"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:backgroundTintMode="add"
+        app:adpgb_finished_color="@color/colorAccent"
+        app:adpgb_unfinished_color="@android:color/white"
+        custom:adpgb_finished_stroke_width="5dp"
+        custom:adpgb_inner_drawable="@drawable/ic_close_icon"
+        android:layout_margin="20dp"
+        custom:adpgb_show_text="false"
+        custom:adpgb_unfinished_stroke_width="5dp" />
+```
+
+Second `AdCircleProgress` in which you can change `adpgb_finished_stroke_width` like below code:
+
+```xml
+<com.app.adprogressbarlib.AdCircleProgress
+        android:id="@+id/pgb_progress2"
+        android:layout_width="60dp"
+        android:layout_margin="20dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/pgb_progress"
+        android:backgroundTintMode="add"
+        app:adpgb_finished_color="@color/colorPrimary"
+        app:adpgb_progress="30"
+        app:adpgb_background_color="@android:color/transparent"
+        app:adpgb_unfinished_color="@android:color/white"
+        custom:adpgb_finished_stroke_width="10dp"
+        custom:adpgb_show_text="false"
+        custom:adpgb_unfinished_stroke_width="5dp" />
+```
+
+
+Third `AdCircleProgress` in which you can change `adpgb_inner_drawable` means you can change image or vector image in inner circle like below code:
+
+   ```xml
+<com.app.adprogressbarlib.AdCircleProgress
+        android:id="@+id/pgb_progress3"
+        android:layout_width="60dp"
+        android:layout_margin="20dp"
+        android:layout_height="60dp"
+        app:adpgb_background_color="@android:color/holo_red_dark"
+        android:layout_toRightOf="@id/pgb_progress2"
+        android:backgroundTintMode="add"
+        app:adpgb_finished_color="@android:color/white"
+        app:adpgb_unfinished_color="@android:color/holo_red_dark"
+        custom:adpgb_finished_stroke_width="5dp"
+        custom:adpgb_inner_drawable="@drawable/ic_delete_icon"
+        custom:adpgb_show_text="false"
+        custom:adpgb_unfinished_stroke_width="5dp" />
+```
+
+
+
+
