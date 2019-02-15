@@ -15,7 +15,7 @@ I took reference or take some code from [CircleProgress](https://github.com/lzyz
 Gradle:
 
 ```gradle
-implementation 'ad:1.0.0'
+implementation 'com.github.Adilhusen:circle-progress-ad-android-:1.0'
 ```
 
 ## Usage
