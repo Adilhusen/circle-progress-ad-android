@@ -17,7 +17,6 @@
         android:layout_alignParentTop="true"
         android:backgroundTintMode="add"
         app:adpgb_finished_color="@color/colorAccent"
-        app:adpgb_progress="100"
         app:adpgb_unfinished_color="@android:color/white"
         custom:adpgb_finished_stroke_width="5dp"
         custom:adpgb_inner_drawable="@drawable/ic_close_icon"
