@@ -1,5 +1,6 @@
 # circle-progress-ad-android
 
+[![passing](https://jitpack.io/v/Adilhusen/circle-progress-ad-android-.svg)](https://jitpack.io/#Adilhusen/circle-progress-ad-android-)
 
 A small Android library allowing you to have a smooth and customizable circular  ProgressBar like whatsapp and Tez app, it can be use while uploding or downloading file.
 
