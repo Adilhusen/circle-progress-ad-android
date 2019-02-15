@@ -5,3 +5,4 @@ I decided to do this because I was really tired to find progressbar like whatsap
 
 I took reference or take some code from [CircleProgress](https://github.com/lzyzsd/CircleProgress) and change it as i need.also add code for set vector image as background and gradient colors.
 
+![AdProgressBar](https://github.com/Adilhusen/circle-progress-ad-android-/blob/master/app/src/main/res/drawable/demo_gif.gif)
