@@ -6,3 +6,20 @@ I decided to do this because I was really tired to find progressbar like whatsap
 I took reference or take some code from [CircleProgress](https://github.com/lzyzsd/CircleProgress) and change it as i need.also add code for set vector image as background and gradient colors.
 
 ![AdProgressBar](https://github.com/Adilhusen/circle-progress-ad-android-/blob/master/app/src/main/res/drawable/demo_gif.gif)
+
+
+## Integration
+Gradle:
+
+```gradle
+implementation 'ad:1.0.0'
+```
+
+## Usage
+
+You can either simply use the [`AdCircleProgress`](https://github.com/Adilhusen/circle-progress-ad-android-/blob/master/adprogressbarlib/src/main/java/com/app/adprogressbarlib/AdCircleProgress.java) widge from this library on a regular `ProgressBar`.
+
+### Using Widget
+
+Simply replace your `ProgressBar` with `AdCircleProgress`, and remember to apply corresponding style and attribute for correct behavior.
+
